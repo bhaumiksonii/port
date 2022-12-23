@@ -95,10 +95,10 @@ export default {
 <style lang="scss">
 // vars
 :root {
-  --purple: #682ae9;
+  --purple: #e92a47;
   --light: #dbdbdb;
   --header-link: #dbdbdb;
-  --header-link-hover: #682ae9;
+  --header-link-hover: #e92a47;
   --header-link-hover-icon: #dbdbdb;
   --header-link-active: rgba(85, 85, 85, 1);
   --std-color: #dbdbdb;
@@ -208,8 +208,8 @@ body {
     .header-nav a svg,
     .header-breadcrumb,
     .header-nav-close-button {
-      color: #411a91;
-      fill: #411a91;
+      color: #e92a47;
+      fill: #e92a47;
     }
   }
 }

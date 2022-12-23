@@ -1,9 +1,9 @@
 {
-  "name": "Iuri de Paula - Portfolio",
+  "name": "Bhaumik Soni - Portfolio",
   "lang": "en-US",
-  "short_name": "iuri.is",
-  "theme_color": "#0e1212",
-  "background_color": "#0e1212",
+  "short_name": "bhaumik.is",
+  "theme_color": "#e92a47",
+  "background_color": "#e92a47",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",

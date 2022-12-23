@@ -330,8 +330,8 @@ body.blue-background {
   .header-nav a svg,
   .header-breadcrumb,
   .header-nav-close-button {
-    color: #411a91;
-    fill: #411a91;
+    color: #e92a47;
+    fill: #e92a47;
   }
 }
 </style>

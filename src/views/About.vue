@@ -2,7 +2,7 @@
   <div id="about" class="wrapper">
     <div class="pic"></div>
     <div class="static-container">
-      <h1 class="title">about(<span class="params">iuri</span>)</h1>
+      <h1 class="title">about(<span class="params">bhaumik</span>)</h1>
 
       <TextBlock>
         <div class="first-fold">
@@ -27,7 +27,7 @@
             </li>
           </ul>
 
-          <p class="-purple">
+          <p class="-red">
             <span v-for="(line, i) in data.description" :key="i">
               {{ line }}<br />
             </span>
@@ -55,7 +55,7 @@
           <div class="columns experience">
             <ul>
               <li v-for="(experience, i) in data.experiences" :key="i">
-                <strong class="-purple">{{ experience.position }}</strong>
+                <strong class="-red">{{ experience.position }}</strong>
                 <br />
                 @ {{ experience.company }}<br />
                 {{ experience.time || null }}
@@ -70,7 +70,7 @@
                 <span class="-comment">// {{ level }}</span
                 ><br />
                 <span v-for="[locale, label] in langs" :key="locale"
-                  ><em class="-purple">{{ locale }}</em> {{ label }}<br
+                  ><em class="-red">{{ locale }}</em> {{ label }}<br
                 /></span>
               </li>
             </ul>
@@ -233,7 +233,7 @@ export default {
       text-decoration: none;
 
       &.bt {
-        background: var(--purple);
+        background: var(--red);
         color: var(--bg);
         padding: 0 1rem;
         height: 2rem;
@@ -258,7 +258,7 @@ export default {
         width: 1.5rem;
         height: 1.5rem;
         stroke: var(--bg);
-        fill: var(--purple);
+        fill: var(--red);
         stroke-width: 2px;
         transition: all 400ms ease-out;
       }
